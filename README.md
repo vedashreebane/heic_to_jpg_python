@@ -1,1 +1,1 @@
-##heic to jpg file conversion using python
+heic to jpg file conversion using python
