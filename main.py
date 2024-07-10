@@ -20,8 +20,7 @@ def convert(f):
     )
 
     image.save(os.path.join(dr, os.path.basename(f).split('.')[0]) + '.jpg', format="jpeg")
-    # for .png conversion - image.save(os.path.join(dr, os.path.basename(f).split('.')[0]) +
-    # '.png', format="png")
+    # for .png conversion - image.save(os.path.join(dr, os.path.basename(f).split('.')[0]) + '.png', format="png")
 
 
 for f in os.listdir(dr):
