@@ -7,4 +7,4 @@ To run this script, copy it to a folder containing the folder with all the HEIC 
 You will need pillow_heif library installed to use this code. 
 To install this library write the following code in the terminal and run it.
 
-_~ pip install pillow_heif_
+~ pip install pillow_heif
