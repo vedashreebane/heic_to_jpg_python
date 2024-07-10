@@ -2,12 +2,9 @@ import os
 import pillow_heif
 from PIL import Image
 
-dr = "files"
-
 # Get path of the desired folder
-#dr = "files"
-# if folder with .heic files the same folder as this .py file
-dr = "F:\\files"
+dr = "files" # if folder with .heic files the same folder as this .py file
+#dr = "F:\\files" file path of the desired folder if in another drive or location
 
 # Function to convert the file to desired format
 def convert(f):
